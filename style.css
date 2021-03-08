@@ -1,0 +1,61 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+#entete{
+	background-color: black;
+	color: white;
+	font-size: 3em;
+	font-family: "Agency FB";
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px solid black;
+}
+#logo{
+	border: 2px solid black;
+}
+#menu{
+	text-align: center;
+	color: white;
+	background-color: black;
+	border-top: solid white 2px;
+}
+#menu ul, #menu li{
+	display: inline;
+}
+#menu li a{
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	border-left: solid white 2px; 
+}
+#menu li a:hover{
+	border-bottom: solid green 5px;
+}
+#menu li:last-child a{
+	border-right: solid white 2px; 
+}
+#contenu h1:first-child{
+	text-align: center;
+}
+#contenu
+{
+	padding: 10px;
+	padding-top: 0px;
+}
+div {
+	overflow: hidden;
+}
+#pied{
+	position: absolute;
+	width: 100%;
+	bottom: 0%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
